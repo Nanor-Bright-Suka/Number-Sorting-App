@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("./img/pic.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    z-index: -1;
+ }
+
+ .main-container {
+    background-color: aliceblue;
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding-top: 6rem;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px 0px black, inset 10px 10px 10px 0 black, inset 15px 15px 15px 0px black;
+ }
+
+ label {
+    color: black;
+    font-size: 2rem;
+    line-height: 1.8;
+ }
+
+ label:hover {
+    text-decoration: underline;
+ }
+
+ input {
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    outline: none;
+    color: white;
+    border: transparent;
+    background-color: black;
+ }
+
+ input::placeholder {
+    color: white;
+    text-align: center;
+ }
+
+
+
+ .buttonDiv {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+ }
+
+ button {
+    padding: 15px 20px;
+    outline: none;
+    border: transparent;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    
+ }
+ 
